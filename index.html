@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<nav>
+			<img src="images/kevv.jpg" class="logo">
+			<ul>
+				<li><a href="#header">HOME</a></li>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#services">SERVICES</a></li>
+				<li><a href="#portfolio">PORTFOLIO</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+			</ul>
+		</nav>
+		<div class="header-text">
+			<p><i>FullStack Developer</p></i>
+			<h1>Hello, I'm <span>Kevin</span><br> Onyango from Kenya</h1> 
+		</div>
+	</div>
+</div>
+<!----------about-------------->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="images/cap.jpg">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p>Am Kevin Onyango, a Kenyan who is passionate in modern technology and my main point of interest is Web Development, UI/UX design, Artificial inteligence and Machine Learning. I am well knowledged in the above courses and my dream is to change and contribute to the technology in this modern world.</p>
+				<div class="tab-titles">
+					<p class="tab-links active-link onclick="opentab('Skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('Experience ')">Experience</p>
+					<p class="tab-links" onclick="opentab('Education')">Education</p>
+				</div>
+				<div class="tab-contents active-tab" id="Skills">
+					<ul>
+						<li><span>UI/UX<br></span>Designing Web/Application Interfaces</li>
+						<li><span>Web Development<br></span>Designing Web/Application Interfaces</li>
+						<li><span>App Development<br></span>Building Anroid/ios apps</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="Experience">
+					<ul>
+						<li><span>2021 - Current<br></span>Web Dev training at Powerlearn Project</li>
+						<li><span>2019 - 2021<br></span>IT consaultant at StarApp LLC. </li>
+						<li><span>2018 - 2019<br></span>Internship at AptLearn</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="Education">
+					<ul>
+						<li><span>2022<br></span>Powerlearn Project</li>
+						<li><span>2022<br></span>Bsc.IT Kabarak University</li>
+						<li><span>2019<br></span>BBA from ISM Kenya</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html> 
